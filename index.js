@@ -1,6 +1,4 @@
-const http=require("http");
-const server=http.createServer((req,res)=>{
-    res.end ("hello");
+const http = require('http');
+const server= http.createServer((req,res)=>{
+    console.log("Method:" )
 })
-
-server.listen(3000);
